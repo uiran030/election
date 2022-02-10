@@ -1,0 +1,31 @@
+@charset "uft-8";
+* { margin:0; padding:0; box-sizing:border-box }
+ul { list-style:none}
+.row { max-width:1000px; margin:0px auto; border:1px solid black; }
+
+/* 헤더구역 */
+#header {background-color: pink;}
+
+/* 메인페이지 */
+#mainContent {padding:300px 200px;}
+
+/* election 페이지 */
+#elecContent .tabTit li { 
+    display:inline-block;
+    background-color: red; 
+    padding:10px; 
+    color:#fff; 
+}
+#elecContent .loading {
+    height:500px; 
+    font-size:80px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color:#f00;
+}
+#elecContent .page a.on {color:red;}
+
+
+/* 풋터구역 */
+#footer {background-color: tomato;}

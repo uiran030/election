@@ -1,30 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>전국 투표소 정보</title>
-    <style>
-        * { margin:0; padding:0; box-sizing:border-box }
-        ul { list-style:none}
-        #content { max-width:1000px; margin:0 auto }
-        .tabTit li { display:inline-block }
-        .loading {
-            height:500px; 
-            font-size:80px; 
-            display: flex;
-            justify-content: center; 
-            align-items: center;
-            color:#f00;
-        }
-    </style>
-    <script src="./jquery-1.12.4.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
-</head>
-<body>
-    
-    <div id="content">
+<div id="container">
+    <div id="elecContent" class="row">
         <h2>대통령 선거 시도별 투표소 확인하기</h2>
         <ul class="tabTit">
             <li>서울특별시</li>
@@ -36,10 +11,18 @@
                 <p>투표소기관명</p>
                 <p>투표소주소</p>
             </li>
-        </ul> -->
+        </ul> 
+        <div class="page">
+            <span class="prev">이전</span>
+            <span>
+                <a href="1">1</a>
+                <a href="2">2</a>
+                <a href="3">3</a>
+                <a href="4">4</a>
+                <a href="5">5</a>
+            </span>
+            <span class="next">다음</span>
+        </div>
+    -->
     </div>
-
-    <script src="./election.js"></script>
-
-</body>
-</html>
+</div>
