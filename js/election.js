@@ -70,14 +70,14 @@ function usedata(data, pno){
 
 $('.tabTit li').on('click', function(){
     sido = $(this).text()
-    $('#elecContent .placeList, #content .page').remove()
+    $('#elecContent .placeList, #elecContent .page').remove()
     startPage = 1
     abc(sido, startPage)
 })
 
 $('#content').on('click', '.page a', function(){
     var pno = $(this).attr('href')
-    $('#elecContent .placeList, #content .page').remove()
+    $('#elecContent .placeList, #elecContent .page').remove()
     abc(sido, pno)
     return false
 })
@@ -88,7 +88,7 @@ $('#elecContent').on('click', '.page .next', function(){
         startPage += 10
     }
     console.log(startPage)
-    $('#elecContent .placeList, #content .page').remove()
+    $('#elecContent .placeList, #elecContent .page').remove()
     abc(sido, startPage)
 })
 // 이전버튼
@@ -97,6 +97,6 @@ $('#elecContent').on('click', '.page .prev', function(){
         startPage -= 10
     }
     console.log(startPage)
-    $('#elecContent .placeList, #content .page').remove()
+    $('#elecContent .placeList, #elecContent .page').remove()
     abc(sido, startPage)
 })
