@@ -1,1 +1,1 @@
-https://uiran030.github.io/election/election.html
+https://uiran030.github.io/election
